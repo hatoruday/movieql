@@ -1,0 +1,33 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hatoruday/movieql.git"
+  },
+  "author": "hatoruday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hatoruday/movieql/issues"
+  },
+  "homepage": "https://github.com/hatoruday/movieql#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "babel-node": "0.0.1-security",
+    "graphql-yoga": "^1.18.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.6"
+  }
+}
